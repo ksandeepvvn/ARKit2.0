@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		047F1CAAF23F6A3147BC72C7 /* Pods_ARKIT2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F897F13BAE4EAD5F6C47EECC /* Pods_ARKIT2_0Tests.framework */; };
+		2C75CC41C44E1A1D164501EF /* Pods_ARKIT2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB653BF5960987425AE77B0 /* Pods_ARKIT2_0.framework */; };
+		2DAC977BAD77BFFD8EB5CB62 /* Pods_ARKIT2_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A51C1BD3309EB0F7CE8066 /* Pods_ARKIT2_0UITests.framework */; };
 		8AF1A2CA2105A3FB0054C113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1A2C92105A3FB0054C113 /* AppDelegate.swift */; };
 		8AF1A2CC2105A3FB0054C113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF1A2CB2105A3FB0054C113 /* ViewController.swift */; };
 		8AF1A2CF2105A3FB0054C113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF1A2CD2105A3FB0054C113 /* Main.storyboard */; };
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D707A74E76E2B5738193753 /* Pods-ARKIT2.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKIT2.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKIT2.0UITests/Pods-ARKIT2.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3631B7C75F97225172EE71F7 /* Pods-ARKIT2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKIT2.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKIT2.0Tests/Pods-ARKIT2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		53828575D4848ECF96C3749C /* Pods-ARKIT2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKIT2.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARKIT2.0Tests/Pods-ARKIT2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB653BF5960987425AE77B0 /* Pods_ARKIT2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKIT2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C420FD8EA3CD1B4179E3846 /* Pods-ARKIT2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKIT2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARKIT2.0/Pods-ARKIT2.0.release.xcconfig"; sourceTree = "<group>"; };
 		8AF1A2C62105A3FB0054C113 /* ARKIT2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKIT2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF1A2C92105A3FB0054C113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF1A2CB2105A3FB0054C113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		8AF1A2E52105A3FC0054C113 /* ARKIT2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKIT2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF1A2E92105A3FC0054C113 /* ARKIT2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKIT2_0UITests.swift; sourceTree = "<group>"; };
 		8AF1A2EB2105A3FC0054C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A51C1BD3309EB0F7CE8066 /* Pods_ARKIT2_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKIT2_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C89509BA7461599FCF2DC5 /* Pods-ARKIT2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKIT2.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARKIT2.0UITests/Pods-ARKIT2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE347C8659D82A5D74185CB0 /* Pods-ARKIT2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARKIT2.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARKIT2.0/Pods-ARKIT2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		F897F13BAE4EAD5F6C47EECC /* Pods_ARKIT2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARKIT2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C75CC41C44E1A1D164501EF /* Pods_ARKIT2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047F1CAAF23F6A3147BC72C7 /* Pods_ARKIT2_0Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAC977BAD77BFFD8EB5CB62 /* Pods_ARKIT2_0UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				8AF1A2DD2105A3FC0054C113 /* ARKIT2.0Tests */,
 				8AF1A2E82105A3FC0054C113 /* ARKIT2.0UITests */,
 				8AF1A2C72105A3FB0054C113 /* Products */,
+				E71941616311FF597A16491B /* Pods */,
+				FADDB2880A271CE367167EDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = ARKIT2.0UITests;
 			sourceTree = "<group>";
 		};
+		E71941616311FF597A16491B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE347C8659D82A5D74185CB0 /* Pods-ARKIT2.0.debug.xcconfig */,
+				5C420FD8EA3CD1B4179E3846 /* Pods-ARKIT2.0.release.xcconfig */,
+				53828575D4848ECF96C3749C /* Pods-ARKIT2.0Tests.debug.xcconfig */,
+				3631B7C75F97225172EE71F7 /* Pods-ARKIT2.0Tests.release.xcconfig */,
+				A9C89509BA7461599FCF2DC5 /* Pods-ARKIT2.0UITests.debug.xcconfig */,
+				1D707A74E76E2B5738193753 /* Pods-ARKIT2.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FADDB2880A271CE367167EDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BB653BF5960987425AE77B0 /* Pods_ARKIT2_0.framework */,
+				F897F13BAE4EAD5F6C47EECC /* Pods_ARKIT2_0Tests.framework */,
+				A7A51C1BD3309EB0F7CE8066 /* Pods_ARKIT2_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AF1A2EE2105A3FC0054C113 /* Build configuration list for PBXNativeTarget "ARKIT2.0" */;
 			buildPhases = (
+				889684733979E24717B35DD9 /* [CP] Check Pods Manifest.lock */,
 				8AF1A2C22105A3FB0054C113 /* Sources */,
 				8AF1A2C32105A3FB0054C113 /* Frameworks */,
 				8AF1A2C42105A3FB0054C113 /* Resources */,
+				62016E266504E698AFF7DA4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AF1A2F12105A3FC0054C113 /* Build configuration list for PBXNativeTarget "ARKIT2.0Tests" */;
 			buildPhases = (
+				B5AB0F2ECF5093591D6F806B /* [CP] Check Pods Manifest.lock */,
 				8AF1A2D62105A3FC0054C113 /* Sources */,
 				8AF1A2D72105A3FC0054C113 /* Frameworks */,
 				8AF1A2D82105A3FC0054C113 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AF1A2F42105A3FC0054C113 /* Build configuration list for PBXNativeTarget "ARKIT2.0UITests" */;
 			buildPhases = (
+				1A3A6493D6AA4B2507798742 /* [CP] Check Pods Manifest.lock */,
 				8AF1A2E12105A3FC0054C113 /* Sources */,
 				8AF1A2E22105A3FC0054C113 /* Frameworks */,
 				8AF1A2E32105A3FC0054C113 /* Resources */,
@@ -250,6 +294,85 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A3A6493D6AA4B2507798742 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKIT2.0UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62016E266504E698AFF7DA4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARKIT2.0/Pods-ARKIT2.0-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARKIT2.0/Pods-ARKIT2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		889684733979E24717B35DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKIT2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5AB0F2ECF5093591D6F806B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARKIT2.0Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8AF1A2C22105A3FB0054C113 /* Sources */ = {
@@ -428,6 +551,7 @@
 		};
 		8AF1A2EF2105A3FC0054C113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE347C8659D82A5D74185CB0 /* Pods-ARKIT2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +569,7 @@
 		};
 		8AF1A2F02105A3FC0054C113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C420FD8EA3CD1B4179E3846 /* Pods-ARKIT2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +587,7 @@
 		};
 		8AF1A2F22105A3FC0054C113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53828575D4848ECF96C3749C /* Pods-ARKIT2.0Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +608,7 @@
 		};
 		8AF1A2F32105A3FC0054C113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3631B7C75F97225172EE71F7 /* Pods-ARKIT2.0Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +629,7 @@
 		};
 		8AF1A2F52105A3FC0054C113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C89509BA7461599FCF2DC5 /* Pods-ARKIT2.0UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +649,7 @@
 		};
 		8AF1A2F62105A3FC0054C113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D707A74E76E2B5738193753 /* Pods-ARKIT2.0UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
